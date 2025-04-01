@@ -1,27 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-    <channel>
-        <title>Atlético de Madrid - Blog</title>
-        <link>http://127.0.0.1:3000/blog/index.html</link>
-        <description>Últimas noticias sobre el Atlético de Madrid</description>
-        <language>es</language>
+  <channel>
+    <title>Podcast Atlético de Madrid</title>
+    <link>http://localhost/podcast</link>
+    <description>Análisis, historia y actualidad del Atlético de Madrid.</description>
+    <language>es</language>
+    <category>Deportes</category>
 
-        <item>
-            <title>Atlético vence al Real Madrid en un derbi épico</title>
-            <link>http://127.0.0.1:3000/blog/posts/post1.html</link>
-            <description>El Atlético de Madrid logró imponerse al Real Madrid con un resultado de 2-1...</description>
-        </item>
+    <item>
+      <title>Episodio 1: El Derbi Madrileño</title>
+      <link>http://localhost/podcast/episodio1</link>
+      <description>Analizamos la victoria del Atlético en el derbi contra el Real Madrid.</description>
+      <pubDate>Mon, 25 Mar 2025 14:00:00 GMT</pubDate>
+      <guid>http://localhost/podcast/episodio1</guid>
+      <enclosure url="http://localhost/podcast/audios/episodio1.mp3" type="audio/mpeg"/>
+      <category>Fútbol</category>
+    </item>
 
-        <item>
-            <title>Análisis táctico: El sistema de Simeone</title>
-            <link>http://127.0.0.1:3000/blog/posts/post2.html</link>
-            <description>El "Cholismo" ha marcado una época en el Atlético de Madrid, con un estilo defensivo...</description>
-        </item>
-
-        <item>
-            <title>Próximos fichajes: ¿Quién llegará al Atleti?</title>
-            <link>http://127.0.0.1:3000/blog/posts/post3.html</link>
-            <description>El Atlético de Madrid ya está en el mercado en busca de refuerzos...</description>
-        </item>
-    </channel>
+    <item>
+      <title>Episodio 2: Historia de los grandes delanteros</title>
+      <link>http://localhost/podcast/episodio2</link>
+      <description>Un repaso por los mejores goleadores de la historia del Atlético de Madrid.</description>
+      <pubDate>Thu, 21 Mar 2025 10:30:00 GMT</pubDate>
+      <guid>http://localhost/podcast/episodio2</guid>
+      <enclosure url="http://localhost/podcast/audios/episodio2.mp3" type="audio/mpeg"/>
+      <category>Historia del Atlético</category>
+    </item>
+  </channel>
 </rss>

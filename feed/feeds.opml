@@ -1,15 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Blog Atlético de Madrid</title>
+    <link>http://localhost/blog</link>
+    <description>Noticias y artículos sobre el Atlético de Madrid.</description>
+    <language>es</language>
+
+    <item>
+      <title>Atlético vence en el derbi madrileño</title>
+      <link>http://localhost/blog/derbi-madrid</link>
+      <description>El Atlético de Madrid se impuso al Real Madrid con un 2-1 en el Metropolitano.</description>
+      <pubDate>Mon, 25 Mar 2025 14:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Entrevista con Diego Simeone</title>
+      <link>http://localhost/blog/entrevista-simeone</link>
+      <description>Diego Simeone analiza la temporada y los retos del equipo.</description>
+      <pubDate>Wed, 20 Mar 2025 10:30:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
+
+<!-- RSS del Podcast -->
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Podcast Atlético de Madrid</title>
+    <link>http://localhost/podcast</link>
+    <description>Análisis, historia y actualidad del Atlético de Madrid.</description>
+    <language>es</language>
+
+    <item>
+      <title>Episodio 1: El Derbi Madrileño</title>
+      <link>http://localhost/podcast/episodio1</link>
+      <description>Analizamos la victoria del Atlético en el derbi contra el Real Madrid.</description>
+      <pubDate>Mon, 25 Mar 2025 14:00:00 GMT</pubDate>
+      <enclosure url="http://localhost/podcast/audios/episodio1.mp3" type="audio/mpeg"/>
+    </item>
+
+    <item>
+      <title>Episodio 2: Historia de los grandes delanteros</title>
+      <link>http://localhost/podcast/episodio2</link>
+      <description>Un repaso por los mejores goleadores de la historia del Atlético de Madrid.</description>
+      <pubDate>Thu, 21 Mar 2025 10:30:00 GMT</pubDate>
+      <enclosure url="http://localhost/podcast/audios/episodio2.mp3" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>
+
+<!-- OPML al final -->
+<?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
     <title>Feeds Atlético de Madrid</title>
   </head>
   <body>
     <outline text="Blog Atlético" type="rss" 
-             xmlUrl="https://miweb.com/feed/rss.xml" 
-             htmlUrl="https://miweb.com/blog"/>
+             xmlUrl="http://localhost/feed/blog.xml" 
+             htmlUrl="http://localhost/blog"/>
              
     <outline text="Podcast Atlético" type="rss" 
-             xmlUrl="https://miweb.com/feed/podcast.xml" 
-             htmlUrl="https://miweb.com/podcast"/>
+             xmlUrl="http://localhost/feed/podcast.xml" 
+             htmlUrl="http://localhost/podcast"/>
   </body>
 </opml>
