@@ -4,7 +4,12 @@
     <title>Feeds Atlético de Madrid</title>
   </head>
   <body>
-    <outline text="Blog Atlético" type="rss" xmlUrl="http://localhost/feed/rss.xml"/>
-    <outline text="Podcast Atlético" type="rss" xmlUrl="http://localhost/feed/podcast.xml"/>
+    <outline text="Blog Atlético" type="rss" 
+             xmlUrl="https://miweb.com/feed/rss.xml" 
+             htmlUrl="https://miweb.com/blog"/>
+             
+    <outline text="Podcast Atlético" type="rss" 
+             xmlUrl="https://miweb.com/feed/podcast.xml" 
+             htmlUrl="https://miweb.com/podcast"/>
   </body>
 </opml>
