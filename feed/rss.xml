@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Atlético de Madrid - Blog</title>
+        <link>http://127.0.0.1:3000/blog/index.html</link>
+        <description>Últimas noticias sobre el Atlético de Madrid</description>
+        <language>es</language>
+
+        <item>
+            <title>Atlético vence al Real Madrid en un derbi épico</title>
+            <link>http://127.0.0.1:3000/blog/posts/post1.html</link>
+            <description>El Atlético de Madrid logró imponerse al Real Madrid con un resultado de 2-1...</description>
+        </item>
+
+        <item>
+            <title>Análisis táctico: El sistema de Simeone</title>
+            <link>http://127.0.0.1:3000/blog/posts/post2.html</link>
+            <description>El "Cholismo" ha marcado una época en el Atlético de Madrid, con un estilo defensivo...</description>
+        </item>
+
+        <item>
+            <title>Próximos fichajes: ¿Quién llegará al Atleti?</title>
+            <link>http://127.0.0.1:3000/blog/posts/post3.html</link>
+            <description>El Atlético de Madrid ya está en el mercado en busca de refuerzos...</description>
+        </item>
+    </channel>
+</rss>

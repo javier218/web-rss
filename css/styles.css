@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #c8102e;
+    color: white;
+    padding: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos principales */
+main {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+h1, h2, h3 {
+    color: #c8102e;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 10px;
+}
+
+/* Imágenes */
+.imagen-post {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #c8102e;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+a[href$="rss.xml"] {
+    display: none;
+}

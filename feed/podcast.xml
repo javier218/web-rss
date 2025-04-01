@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Podcast Atlético de Madrid</title>
+    <link>http://localhost/podcast</link>
+    <description>Análisis y actualidad sobre el Atlético de Madrid</description>
+
+    <item>
+      <title>🎙 Episodio 1: Historia del Atleti</title>
+      <link>http://localhost/podcast/index.html</link>
+      <description>Exploramos la historia del Atlético de Madrid.</description>
+    </item>
+
+    <item>
+      <title>🎙 Episodio 2: El Cholismo y su impacto</title>
+      <link>http://localhost/podcast/index.html</link>
+      <description>Cómo el Cholo Simeone transformó el equipo.</description>
+    </item>
+  </channel>
+</rss>
