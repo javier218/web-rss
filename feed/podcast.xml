@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Pasión Rojiblanca - Podcast</title>
+    <link>https://javier218.github.io/web-rss/podcast/</link>
+    <description>Análisis, historia, curiosidades y actualidad del Atlético de Madrid</description>
+    <language>es</language>
+    <atom:link href="https://javier218.github.io/web-rss/feed/podcast.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
+
+    <item>
+      <title>Episodio 1: Historia del Atlético de Madrid</title>
+      <link>https://javier218.github.io/web-rss/podcast/</link>
+      <description>Recorremos los momentos más importantes en la historia del Atleti, desde su fundación hasta la era Simeone.</description>
+      <pubDate>Fri, 28 Feb 2025 09:30:00 GMT</pubDate>
+      <guid isPermaLink="false">episodio1</guid>
+      <enclosure url="https://javier218.github.io/web-rss/podcast/audios/episodio1.mp3" length="12345678" type="audio/mpeg"/>
+    </item>
+
+    <item>
+      <title>Episodio 2: Los ídolos del Atleti</title>
+      <link>https://javier218.github.io/web-rss/podcast/</link>
+      <description>Hablamos sobre figuras emblemáticas como Fernando Torres, Koke, Luis Aragonés o Godín, y su legado rojiblanco.</description>
+      <pubDate>Wed, 26 Feb 2025 09:30:00 GMT</pubDate>
+      <guid isPermaLink="false">episodio2</guid>
+      <enclosure url="https://javier218.github.io/web-rss/podcast/audios/episodio2.mp3" length="23456789" type="audio/mpeg"/>
+    </item>
+
+    <item>
+      <title>Episodio 3: Temporada 2024/2025 - ¿A por la Liga?</title>
+      <link>https://javier218.github.io/web-rss/podcast/</link>
+      <description>Analizamos el rendimiento del equipo en la presente temporada, fichajes, estilo de juego y posibilidades de título.</description>
+      <pubDate>Mon, 24 Feb 2025 15:45:00 GMT</pubDate>
+      <guid isPermaLink="false">episodio3</guid>
+      <enclosure url="https://javier218.github.io/web-rss/podcast/audios/episodio3.mp3" length="34567890" type="audio/mpeg"/>
+    </item>
+    
+  </channel>
+</rss>
