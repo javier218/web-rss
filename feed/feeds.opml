@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>Feeds de Pasión Rojiblanca</title>
+  </head>
+  <body>
+    <outline text="Blog - Pasión Rojiblanca" type="rss"
+      xmlUrl="https://nesteamangopina.github.io/UT5-ACT-3/feed/rss.xml"
+      htmlUrl="https://nesteamangopina.github.io/UT5-ACT-3/blog/index.html"/>
+    
+    <outline text="Podcast - Pasión Rojiblanca" type="rss"
+      xmlUrl="https://nesteamangopina.github.io/UT5-ACT-3/feed/podcast.xml"
+      htmlUrl="https://nesteamangopina.github.io/UT5-ACT-3/podcast/index.html"/>
+  </body>
+</opml>

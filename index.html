@@ -3,48 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atlético de Madrid - Fan Page</title>
+    <title>Atlético de Madrid - Inicio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS Blog" href="feed/rss.xml">
+    <link rel="alternate" type="application/rss+xml" title="RSS Podcast" href="feed/podcast.xml">
+    <link rel="alternate" type="application/opml+xml" title="OPML" href="feed/feeds.opml">
 </head>
 <body>
     <header>
-        <h1>Atlético de Madrid</h1>
-        <img src="images/escudo.png" alt="Escudo Atlético de Madrid" class="escudo">
+        <h1>Pasión Rojiblanca</h1>
         <nav>
             <ul>
-                <li><a href="blog/index.html">Blog</a></li>
-                <li><a href="podcast/index.html">Podcast</a></li>
-                <li><a href="feed/rss.xml">RSS</a></li>
+                <li><a href="blog/index.html" aria-label="Ir al blog">Blog</a></li>
+                <li><a href="podcast/index.html" aria-label="Ir al podcast">Podcast</a></li>
             </ul>
         </nav>
     </header>
-
+    
     <main>
-        <section>
-            <h2>Historia del Club</h2>
-            <p>El Atlético de Madrid fue fundado en 1903 y ha crecido hasta convertirse en uno de los clubes más grandes de España y Europa. Conocido por su espíritu de lucha, ha ganado múltiples títulos nacionales e internacionales.</p>
-            <p>Sus colores rojo y blanco simbolizan la pasión y entrega de sus jugadores y aficionados. El estadio Wanda Metropolitano es el fortín donde miles de seguidores se reúnen para alentar al equipo.</p>
-        </section>
-
-        <section>
-            <h2>Últimas Noticias</h2>
-            <ul>
-                <li><a href="blog/post/post1.html">🏆 Atlético vence al Real Madrid en un derbi épico</a></li>
-                <li><a href="blog/post/post2.html">🎯 Análisis táctico: El sistema de Simeone</a></li>
-                <li><a href="blog/post/post3.html">🔥 Próximos fichajes: ¿Quién llegará al Atleti?</a></li>
-            </ul>
+        <section id="intro">
+            <h2>Bienvenidos a Pasión Rojiblanca</h2>
+            <p>Tu espacio dedicado al <strong>Atlético de Madrid</strong>. Aquí encontrarás noticias, análisis de partidos, historia del club, jugadores y contenido exclusivo para los verdaderos colchoneros.</p>
+            <div class="atleti-images">
+                <img src="images/atletico.png" alt="Escudo del Atlético de Madrid">
+            </div>
         </section>
     </main>
-
+    
     <footer>
-        <footer class="footer">
-            <p>
-                © 2025 Atlético de Madrid Fan Page | Creado por Aficionados para Aficionados |</p>
-                <a href="feed/feeds.opml" download="feeds.opml">Descargar OPML</a>
-                <a href="feed/rss.xml" download="rss.xml">Desca RSS</a>
-                <a href="feed/podcast.xml" download="podcast.xml">Descargar RSS </a>
-        </footer>
-        
+        <p>&copy; 2025 Pasión Rojiblanca. Todos los derechos reservados.</p>
+        <p>
+            <a href="feed/rss.xml" aria-label="RSS Blog">📡 RSS Blog</a> |
+            <a href="feed/podcast.xml" aria-label="RSS Podcast">🎙 RSS Podcast</a> |
+            <a href="feed/feeds.opml" download="feeds.opml" aria-label="Suscripción OPML">📜 OPML</a>
+            <a href="https://validator.w3.org/feed/check.cgi?url=https://nesteamangopina.github.io/UT5-ACT-3/feed/podcast.xml" target="_blank">
+                <button>✅ Validar RSS Podcast</button>
+            </a>
+            <a href="https://validator.w3.org/feed/check.cgi?url=https://nesteamangopina.github.io/UT5-ACT-3/feed/rss.xml" target="_blank">
+                <button>✅ Validar RSS Blog</button>
+            </a>
+        </p>
     </footer>
 </body>
 </html>
